@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import { DB_NAME } from "./contants";
+import { DB_NAME } from "../contants.js";
+
 
 const connectDB = async () =>{
     try{
@@ -12,3 +13,5 @@ const connectDB = async () =>{
         
     }
 }
+
+export default connectDB
